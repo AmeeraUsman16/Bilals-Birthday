@@ -1,0 +1,78 @@
+/* Base styles for the body */
+body {
+  background-image: url('image/cake.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Keeps background fixed on scroll */
+}
+
+/* Base styles for the .large class */
+.large {
+  background-color: rgb(226, 112, 131, 0.2);
+  max-width: 90%;
+  height: 50vh; /* Use viewport height */
+  margin: 5% auto; /* Centered with margin */
+  border-radius: 8px;
+}
+
+/* Adjust for medium screens */
+@media (min-width: 768px) {
+  .large {
+    max-width: 80%;
+    height: 60vh;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Adjust for large screens */
+@media (min-width: 1200px) {
+  .large {
+    max-width: 80%;
+    height: 80vh;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+.responsive-video {
+  max-width: 900px;
+  height: 400px;
+  display: block;
+  margin-left: 70px;
+ 
+  padding-top: 60px;
+  
+}
+
+.paragraph {
+  
+  max-width: 500px;
+  max-height: 390px;
+  margin-left:auto;
+  margin: -400px 5px 0 500px; 
+  overflow: auto;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 8px 20px 8px 20px;
+  color: rgb(6, 28, 48);
+}
+
+
+.responsive-video2 {
+  max-width: 1000px ;
+  height: 300px;
+  display: block;
+  margin-left: 50px;
+  padding-top: 5px;
+  
+  
+  
+}
+
+
+
